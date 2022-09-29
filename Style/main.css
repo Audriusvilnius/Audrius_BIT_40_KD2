@@ -1,12 +1,14 @@
+body{
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
 header {
     width: 800px;
-    background-color: red;
     margin-left: calc((100% - 800px) / 2);
     display: inline-block;
 }
 
-p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.p_header{
+    margin: 10px;
 }
 
 ul {
@@ -17,10 +19,12 @@ ul {
     background-color: #fff;
     padding-right: 30px;
     margin-top: -60px;
+     
 }
 
 li {
     float: right;
+    background-color: red;
 }
 
 li a {
@@ -125,4 +129,9 @@ footer {
     width: 800px;
     background-color: yellow;
     margin-left: calc((100% - 800px) / 2);
+}
+
+.img_footer{
+    width: 3%;
+
 }
