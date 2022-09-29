@@ -7,8 +7,9 @@ header {
     display: inline-block;
 }
 
-.p_header{
+.h1_header{
     margin: 10px;
+    font-weight:lighter;
 }
 
 ul {
@@ -24,7 +25,6 @@ ul {
 
 li {
     float: right;
-    background-color: red;
 }
 
 li a {
@@ -37,13 +37,12 @@ li a {
 }
 
 li a:hover {
-    box-shadow: 0 12px 36px 0 rgba(0, 0, 0, 0.44), 0 25px 50px 0 rgba(0, 0, 0, 0.19);
-    color: black;
+    text-shadow: 2px 2px 17px #221547;
+    
 }
 
 main {
     width: 800px;
-    background-color: greenyellow;
     margin-left: calc(50% - 400px);
     padding-bottom: 80px;
 }
@@ -83,7 +82,6 @@ button {
     width: 63%;
     float: right;
     padding-top: 7%;
-    background-color: chocolate;
 }
 
 .wellcom_text {
@@ -127,11 +125,30 @@ button {
 
 footer {
     width: 800px;
-    background-color: yellow;
     margin-left: calc((100% - 800px) / 2);
 }
 
 .img_footer{
+    display: inline-block;
     width: 3%;
+    filter: grayscale(100%);
+    margin-left: 15px;
+    opacity: 0.5;
+    margin: 0%;
+}
+.img_footer:hover{
+    filter: grayscale(0%);
+    opacity: 1;
 
+}
+.COPYRIGHT_SIGN{
+    text-align:end;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0%;
+    padding-top: 10px;
+    opacity: 0.5;
+}
+.COPYRIGHT_SIGN:hover{
+    opacity: 1; 
 }
