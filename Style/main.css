@@ -1,15 +1,16 @@
-body{
-       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 header {
     width: 800px;
     margin-left: calc((100% - 800px) / 2);
     display: inline-block;
 }
 
-.h1_header{
+.h1_header {
     margin: 10px;
-    font-weight:lighter;
+    font-weight: lighter;
 }
 
 ul {
@@ -20,7 +21,7 @@ ul {
     background-color: #fff;
     padding-right: 30px;
     margin-top: -60px;
-     
+
 }
 
 li {
@@ -38,13 +39,13 @@ li a {
 
 li a:hover {
     text-shadow: 2px 2px 17px #221547;
-    
+
 }
 
 main {
     width: 800px;
     margin-left: calc(50% - 400px);
-    padding-bottom: 80px;
+    padding-bottom: 120px;
 }
 
 span {
@@ -128,7 +129,7 @@ footer {
     margin-left: calc((100% - 800px) / 2);
 }
 
-.img_footer{
+.img_footer {
     display: inline-block;
     width: 3%;
     filter: grayscale(100%);
@@ -136,19 +137,18 @@ footer {
     opacity: 0.5;
     margin: 0%;
 }
-.img_footer:hover{
+
+.img_footer:hover {
     filter: grayscale(0%);
     opacity: 1;
 
 }
-.COPYRIGHT_SIGN{
-    text-align:end;
+
+.COPYRIGHT_SIGN {
+    text-align: end;
     font-size: 12px;
     font-weight: bold;
-    margin: 0%;
-    padding-top: 10px;
+    margin: -3%;
+    padding-right: 100px;
     opacity: 0.5;
-}
-.COPYRIGHT_SIGN:hover{
-    opacity: 1; 
 }
