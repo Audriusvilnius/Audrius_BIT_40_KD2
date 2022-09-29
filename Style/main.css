@@ -1,9 +1,15 @@
 header{
+    width: 800px;
     background-color: red;
+    margin-left: calc((100% - 800px) / 2);
 }
 main{
+    width: 800px;
     background-color: blue;
+    margin-left: calc(50% - 400px);
 }
 footer{
+    width: 800px;
     background-color: yellow;
+    margin-left: calc((100% - 800px) / 2);
 }
