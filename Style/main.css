@@ -24,9 +24,11 @@ main {
     margin-top: 0px;
     font-weight: lighter;
 }
+
 .h1_header:hover {
     text-shadow: 2px 2px 17px #221547;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -160,6 +162,4 @@ button {
     padding-right: 90px;
     left: 0;
     opacity: 0.5;
-
-
 }
