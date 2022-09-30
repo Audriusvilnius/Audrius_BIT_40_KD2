@@ -4,15 +4,29 @@ body {
 
 header {
     width: 800px;
-    margin-left: calc((100% - 800px) / 2);
+    margin-left: calc(50% - 400px);
     display: inline-block;
 }
 
-.h1_header {
-    margin: 10px;
-    font-weight: lighter;
+footer {
+    width: 800px;
+    margin-left: calc(50% - 400px);
 }
 
+main {
+    width: 800px;
+    margin-left: calc(50% - 400px);
+    padding-bottom: 120px;
+}
+
+.h1_header {
+    display: inline-block;
+    margin-top: 0px;
+    font-weight: lighter;
+}
+.h1_header:hover {
+    text-shadow: 2px 2px 17px #221547;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -41,13 +55,9 @@ li a:hover {
     text-shadow: 2px 2px 17px #221547;
 
 }
-p:hover{
-        text-shadow: 2px 2px 17px #221547;
-}
-main {
-    width: 800px;
-    margin-left: calc(50% - 400px);
-    padding-bottom: 120px;
+
+p:hover {
+    text-shadow: 2px 2px 17px #221547;
 }
 
 span {
@@ -126,11 +136,6 @@ button {
     padding: 10px 32px;
 }
 
-footer {
-    width: 800px;
-    margin-left: calc((100% - 800px) / 2);
-}
-
 .img_footer {
     display: inline-block;
     width: 3%;
@@ -147,10 +152,14 @@ footer {
 }
 
 .COPYRIGHT_SIGN {
-    text-align: end;
+    width: 170px;
+    float: right;
     font-size: 12px;
     font-weight: bold;
-    margin: -15px;
-    padding-right: 100px;
+    margin: -20px;
+    padding-right: 90px;
+    left: 0;
     opacity: 0.5;
+
+
 }
