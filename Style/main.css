@@ -1,4 +1,4 @@
-body {
+header,main,footer {
     
     width: 800px;
     margin-left: calc(50% - 400px);
