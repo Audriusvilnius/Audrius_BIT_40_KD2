@@ -149,11 +149,11 @@ span {
     color: darkgray;
     font-size: 20px;
     opacity: .7;
-    height: 2em;
-    width: 2em;
-    text-align: center;
-    line-height: 2em;
-    border-radius: 2em;
+    height: 2em;        /*turinio centravimas*/
+    width: 2em;         /*turinio centravimas*/
+    text-align: center; /*turinio centravimas*/
+    line-height: 2em;   /*turinio centravimas*/
+    border-radius: 2em; /*turinio centravimas*/
 }
 .add_new_footer_link:hover{
     opacity: 1;
