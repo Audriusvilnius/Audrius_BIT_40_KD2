@@ -28,7 +28,8 @@
 .no-margin {
     margin-left: 0;
 }
-.main-menu > .link {
+
+.main-menu>.link {
     color: #000;
     margin-left: 30px;
     text-decoration: none;
@@ -73,6 +74,7 @@ span {
 .right_size_content {
     width: 63%;
     float: right;
+    margin-right: -30px;
     padding-top: 7%;
 }
 
@@ -116,14 +118,14 @@ span {
 .button_back {
     background-color: #fff;
     color: #554485;
-    
+
 }
 
 .button_go_home:hover,
 .button_back:hover {
     background-color: #554485;
     color: #fff;
-   
+
 }
 
 .img_footer {
@@ -140,13 +142,34 @@ span {
     opacity: 1;
 }
 
+.add_new_footer_link{
+    display: inline-block;
+    text-decoration: none;
+    /* margin-top: 50px; */
+    color: darkgray;
+    font-size: 20px;
+    opacity: .7;
+    height: 2em;
+    width: 2em;
+    text-align: center;
+    line-height: 2em;
+    border-radius: 2em;
+}
+.add_new_footer_link:hover{
+    opacity: 1;
+    color: #382b5b;
+    text-shadow: 2px 2px 17px #12033d;
+    
+ 
+}
+
 .COPYRIGHT_SIGN {
     width: 170px;
     float: right;
     font-size: 12px;
     font-weight: bold;
-    margin: -20px;
-    padding-right: 90px;
+    margin: -25px;
+    padding-right: 10px;
     left: 0;
     opacity: 0.5;
 }
