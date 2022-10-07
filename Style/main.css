@@ -142,25 +142,31 @@ span {
     opacity: 1;
 }
 
-.add_new_footer_link{
+.add_new_footer_link {
     display: inline-block;
     text-decoration: none;
     /* margin-top: 50px; */
     color: darkgray;
     font-size: 20px;
     opacity: .7;
-    height: 2em;        /*turinio centravimas*/
-    width: 2em;         /*turinio centravimas*/
-    text-align: center; /*turinio centravimas*/
-    line-height: 2em;   /*turinio centravimas*/
-    border-radius: 2em; /*turinio centravimas*/
+    height: 2em;
+    /*turinio centravimas*/
+    width: 2em;
+    /*turinio centravimas*/
+    text-align: center;
+    /*turinio centravimas*/
+    line-height: 2em;
+    /*turinio centravimas*/
+    border-radius: 2em;
+    /*turinio centravimas*/
 }
-.add_new_footer_link:hover{
+
+.add_new_footer_link:hover {
     opacity: 1;
     color: #382b5b;
     text-shadow: 2px 2px 17px #12033d;
-    
- 
+
+
 }
 
 .COPYRIGHT_SIGN {
